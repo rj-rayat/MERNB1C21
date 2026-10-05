@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+
+
 </head>
 <body>
     <h1 id="heading">Hello World</h1>
 
-    <button id="mouse-enter">Mouse Enter</button><br>
+    <!-- <button id="mouse-enter">Mouse Enter</button><br>
     <button id="mouse-move">Mouse Move</button><br>
-    <button id="mouse-out">Mouse Out</button><br>
+    <button id="mouse-out">Mouse Out</button><br> -->
+
+    <button class="btn bg-primary" id="home-btn">Home</button>
+    <button class="btn" id="about-btn">About</button>
+
+    <div id="home">
+        Home
+    </div>
+
+    <div id="about" class="hidden">
+        About
+    </div>
     
 
     <input id="keyup" type="text">
